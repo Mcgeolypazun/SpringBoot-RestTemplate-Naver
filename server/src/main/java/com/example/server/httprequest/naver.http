@@ -1,0 +1,4 @@
+GET https://openapi.naver.com/v1/search/local.json?query=%EA%B0%88%EB%B9%84&display=10&start=1&sort=random
+Content-Type: application/json
+X-Naver-Client-Id: FV6B5CsIvccaWqtsruRB
+X-Naver-Client-Secret: 9JII4dyK5_
