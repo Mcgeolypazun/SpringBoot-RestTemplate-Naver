@@ -1,0 +1,15 @@
+GET http://localhost:8080/api/client/get-call-list
+
+###
+GET http://localhost:8080/api/client/exchange-call
+Authorization: Bearer token123
+Content-Type: application/json
+
+###
+GET https://openapi.naver.com/v1/search/shop.json?query=macbook
+Content-Type: application/json
+X-Naver-Client-Id: jk5GnZ1eFt6LCgBJEfPz
+X-Naver-Client-Secret: V6jQI3o9qd
+
+###
+GET http://localhost:8080/api/client/search?query=macbook
